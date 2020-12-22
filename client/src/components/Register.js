@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { Button, Form, Header, Segment } from "semantic-ui-react";
 import { AuthContext } from "../providers/AuthProvider";
-// import { useHistory } from "react-router-dom";
+
 
 export default (props) => {
   const [email, setEmail] = useState("");
